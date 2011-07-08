@@ -19,7 +19,6 @@ SPEC = Gem::Specification.new do |s|
   s.files = PKG_FILES
   s.require_paths = [".","ext"]
   s.extensions = ["ext/extconf.rb"]
-  s.extra_rdoc_files = FileList['*.txt']
   s.has_rdoc = true
   s.rdoc_options = RDOC_OPTS
   s.platform = Gem::Platform::RUBY
